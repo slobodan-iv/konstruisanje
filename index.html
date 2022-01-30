@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Tangerine|Caveat" rel="stylesheet">
+    <!-- Bootstrap CSS
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Конструисање!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Pictures/logo3.png" width="90" height="60" class="d-inline-block align-top rounded" alt="M3Design"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://slobodan-iv.github.io/hidraulicni_cilindar/">Хидраулични цилиндар</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Покретни навојни спојеви
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/rucna_dizalica/">Ручне дизалица</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Ручни свалакач</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Зупчасти преносници
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/cilindricni_zupcanici/">Цилиндрични зупчаници</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Пужни пар</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Конусни пар</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Огледни часови и радови</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Повезани Web site-ови
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/kompjuterska_grafika/">Компјутерска графика</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Моделирање и симулација пом. рач.</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- navbar -->
+    <!-- container -->
+    <div class="container">
+      <!-- Content here -->
+      <div>
+        <h1>Конструисање</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-11 col-lg-10">
+            <div class="accordion" id="konstruisanje">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="hidraulicni_cilindar">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_hidraulicni_cilindar" aria-expanded="true" aria-controls="collapse_hidraulicni_cilindar">
+                    Хидраулични цилиндар:
+                  </button>
+                </h2>
+                <div id="collapse_hidraulicni_cilindar" class="accordion-collapse collapse show" aria-labelledby="hidraulicni_cilindar" data-bs-parent="#konstruisanje">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="hidraulicni_cilindar_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="crtez_hidraulicnog_cilindra-tab" data-bs-toggle="tab" data-bs-target="#crtez_hidraulicnog_cilindra" type="button" role="tab" aria-controls="crtez_hidraulicnog_cilindra" aria-selected="true">Цртеж</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="animacija_hidraulicnog_cilindra-tab" data-bs-toggle="tab" data-bs-target="#animacija_hidraulicnog_cilindra" type="button" role="tab" aria-controls="animacija_hidraulicnog_cilindra" aria-selected="true">Анимација</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="hidraulicni_cilindar_TabContent">
+                      <div class="tab-pane show active" id="crtez_hidraulicnog_cilindra" role="tabpanel" aria-labelledby="crtez_hidraulicnog_cilindra-tab">
+                        <img src="Pictures/Crtezi/Hidraulicni_cilindar.jpg" width="100%" alt="Цртеж хидрауличног цилиндра">
+                      </div>
+                      <div class="tab-pane" id="animacija_hidraulicnog_cilindra" role="tabpanel" aria-labelledby="animacija_hidraulicnog_cilindra-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/wzH0T-_YqXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="pokretni_navojni_spojevi">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_pokretni_navojni_spojevi" aria-expanded="true" aria-controls="collapse_pokretni_navojni_spojevi">
+                    Покретни навојни спојеви:
+                  </button>
+                </h2>
+                <div id="collapse_pokretni_navojni_spojevi" class="accordion-collapse collapse" aria-labelledby="pokretni_navojni_spojevi" data-bs-parent="#konstruisanje">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="pokretni_navojni_spojevi_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="crtez_rucne_dizalice-tab" data-bs-toggle="tab" data-bs-target="#crtez_rucne_dizalice" type="button" role="tab" aria-controls="crtez_rucne_dizalice" aria-selected="true">Цртеж ручне дизалице</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="rd_sa_stvarnim_navojem-tab" data-bs-toggle="tab" data-bs-target="#rd_sa_stvarnim_navojem" type="button" role="tab" aria-controls="rd_sa_stvarnim_navojem" aria-selected="true">Ручна дизалица</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="crtez_rucnog_svlakaca-tab" data-bs-toggle="tab" data-bs-target="#crtez_rucnog_svlakaca" type="button" role="tab" aria-controls="crtez_rucnog_svlakaca" aria-selected="true">Цртеж ручног свлакача</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="rucni_svlakac-tab" data-bs-toggle="tab" data-bs-target="#rucni_svlakac" type="button" role="tab" aria-controls="rucni_svlakac" aria-selected="true">Ручни свлакач - Радапцигер</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="pokretni_navojni_spojevi_TabContent">
+                      <div class="tab-pane show active" id="crtez_rucne_dizalice" role="tabpanel" aria-labelledby="crtez_rucne_dizalice-tab">
+                        <img src="Pictures/Crtezi/Rucna_dizalica_exploded.jpg" width="100%" alt="Цртеж ручне дизалице">
+                      </div>
+                      <div class="tab-pane" id="rd_sa_stvarnim_navojem" role="tabpanel" aria-labelledby="rd_sa_stvarnim_navojem-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/G1m5gG0byy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="crtez_rucnog_svlakaca" role="tabpanel" aria-labelledby="crtez_rucnog_svlakaca-tab">
+                        <img src="Pictures/Crtezi/Rucni_svlakac_za_razdvajanje_steznih_spojeva.jpg" width="100%" alt="Цртеж ручног свлакача">
+                      </div>
+                      <div class="tab-pane" id="rucni_svlakac" role="tabpanel" aria-labelledby="rucni_svlakac-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/bycFCiPv1M4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="zupcasti_prenosnici">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_zupcasti_prenosnici" aria-expanded="true" aria-controls="collapse_zupcasti_prenosnici">
+                    Зупчасти преносници снаге:
+                  </button>
+                </h2>
+                <div id="collapse_zupcasti_prenosnici" class="accordion-collapse collapse" aria-labelledby="zupcasti_prenosnici" data-bs-parent="#konstruisanje">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="zupcasti_prenosnici_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="crtez_cilindricnog_zupcastog_para-tab" data-bs-toggle="tab" data-bs-target="#crtez_cilindricnog_zupcastog_para" type="button" role="tab" aria-controls="crtez_cilindricnog_zupcastog_para" aria-selected="true">Цртеж цилинд. зуп. пара</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="cilindricni_zupcasti_par-tab" data-bs-toggle="tab" data-bs-target="#cilindricni_zupcasti_par" type="button" role="tab" aria-controls="cilindricni_zupcasti_par" aria-selected="true">Цилиндричним зуп. пар</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="crtez_puznog_para-tab" data-bs-toggle="tab" data-bs-target="#crtez_puznog_para" type="button" role="tab" aria-controls="crtez_puznog_para" aria-selected="true">Цртеж пужног пара</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="puzni_par-tab" data-bs-toggle="tab" data-bs-target="#puzni_par" type="button" role="tab" aria-controls="puzni_par" aria-selected="true">Пужни пар</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="crtez_konusnog_para-tab" data-bs-toggle="tab" data-bs-target="#crtez_konusnog_para" type="button" role="tab" aria-controls="crtez_konusnog_para" aria-selected="true">Цртеж конусног зуп. пара</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="konusni_par-tab" data-bs-toggle="tab" data-bs-target="#konusni_par" type="button" role="tab" aria-controls="konusni_par" aria-selected="true">Конусни зуп. пар</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="zupcasti_prenosnici_TabContent">
+                      <div class="tab-pane show active" id="crtez_cilindricnog_zupcastog_para" role="tabpanel" aria-labelledby="crtez_cilindricnog_zupcastog_para-tab">
+                        <img src="Pictures/Crtezi/Jednostepeni_reduktor_cil_zup.jpg" width="100%" alt="Цртеж ручне дизалице">
+                      </div>
+                      <div class="tab-pane" id="cilindricni_zupcasti_par" role="tabpanel" aria-labelledby="cilindricni_zupcasti_par-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ym9SW5ogiz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="crtez_puznog_para" role="tabpanel" aria-labelledby="crtez_puznog_para-tab">
+                        <img src="Pictures/Crtezi/Puzni_reduktor_sklopni_crtez.jpg" width="100%" alt="Цртеж пужног пара">
+                      </div>
+                      <div class="tab-pane" id="puzni_par" role="tabpanel" aria-labelledby="puzni_par-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/JDcuMa95dFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="crtez_konusnog_para" role="tabpanel" aria-labelledby="crtez_konusnog_para-tab">
+                        <img src="Pictures/Crtezi/gearbox.png" width="100%" alt="Цртеж конусног пара">
+                      </div>
+                      <div class="tab-pane" id="konusni_par" role="tabpanel" aria-labelledby="konusni_par-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/KHBeiR-ii08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <nav class="card-header" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">&copy; Slobodan Ivković</li>
+                  <li class="breadcrumb-item"><a href="https://www.linkedin.com/in/slobodan-ivkovic-a08326ba"><img src="Pictures/Icons/linkedin.png" alt="linkedin logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://twitter.com/slobodan_iv"><img src="Pictures/Icons/twitter.png" alt="twitter logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://www.youtube.com/user/Mickijedini"><img src="Pictures/Icons/youtube.png" alt="youtube logo"></a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
